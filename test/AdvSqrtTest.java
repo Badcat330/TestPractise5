@@ -2,10 +2,6 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import java.util.Iterator;
-
-import static org.testng.Assert.*;
-
 public class AdvSqrtTest {
     AdvSqrt advSqrt = new AdvSqrt();
     final int imax = 10;
