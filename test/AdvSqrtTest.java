@@ -52,7 +52,7 @@ public class AdvSqrtTest {
 
     @Test
     public void NegativeZeroArgTest() {
-        Assert.assertEquals((double) -0, advSqrt.sqrt(-0));
+        Assert.assertEquals(-0.0, advSqrt.sqrt(-0.0));
     }
 
     @Test
